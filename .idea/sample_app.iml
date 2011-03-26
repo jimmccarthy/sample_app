@@ -48,7 +48,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.4, /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.4, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/sqlite3-ruby-1.2.4)" level="application" />
   </component>
 </module>
 
