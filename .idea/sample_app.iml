@@ -12,6 +12,18 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
+        <dependency name="linkedin" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="oauth" version="0.4.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="rails" version="3.0.5" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -84,6 +96,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/builder-2.1.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.0.5, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/actionmailer-3.0.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.5.1, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/rspec-core-2.5.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] oauth (v0.4.4, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/oauth-0.4.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] linkedin (v0.2.2, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/linkedin-0.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] oauth (v0.4.4, /Users/jimmccarthy/.rvm/gems/ruby-1.9.2-p180@global/gems/oauth-0.4.4)" level="application" />
   </component>
 </module>
 
