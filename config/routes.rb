@@ -7,7 +7,7 @@ SampleApp::Application.routes.draw do
 
   get "pages/help"
 
-  get "pages/linkedin"
+  get "auth/index"
 
   get "auth/callback"
 

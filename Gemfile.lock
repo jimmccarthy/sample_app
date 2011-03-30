@@ -93,6 +93,7 @@ PLATFORMS
 
 DEPENDENCIES
   linkedin
+  nokogiri
   oauth (= 0.4.4)
   rails (= 3.0.5)
   rspec (= 2.5.0)
