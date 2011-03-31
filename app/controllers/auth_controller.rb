@@ -25,5 +25,7 @@ class AuthController < ApplicationController
       linked_in_client.authorize_from_access(session[:atoken], session[:asecret])
     end
     @connections = linked_in_client.connections
+    people = ["jBPfK_rxyy"]
+    linked_in_client.send_message("test subject", 'This is a test link: http://www.google.com kona link: http://konatest.deltek.com/projects/31/tasks/66  anchor: <A href="http://www.google.com">Google</A>', people)
   end
 end

@@ -10,7 +10,7 @@
 
 <% @connections.each do |connection| %>
   <tr>
-    <td><%= check_box("select", "connection", {}, "yes", "no") %></td>
+    <td><%= check_box(:select, :connection, {}, "1", "2") %></td>
     <td><%= connection.first_name %></td>
     <td><%= connection.last_name %></td>
     <td><%= connection.headline %></td>
@@ -18,3 +18,4 @@
   </tr>
 <% end %>
 </table>
+<%= submit_tag "Invite", :name => nil %>
